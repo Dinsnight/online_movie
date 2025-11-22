@@ -31,9 +31,6 @@ const Navbar = ({searchText,setSearchText })=>{
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/search">Search</Link>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
-                        </li>
                     </ul>
                     <form className="d-flex" onSubmit={handleSearchButton}>
                         <input

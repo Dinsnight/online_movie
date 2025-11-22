@@ -56,7 +56,7 @@ const MovieView = () =>{
                                <img src={posterPath} className={"img-fluid shadow rounded"}/>
                            </div>
                            <div className="col-md-9" style={{maxWidth: "500px"}}>
-                               <h1>{movieDetails.original_title}</h1>
+                               <h1>{movieDetails.original_title} Buni Badriddin qigan</h1>
                                <p className={"shadow"}>{movieDetails.overview}</p>
                                <p className={"shadow"}>Country: <b> {movieDetails.origin_country?.join(", ")} </b></p>
                                <p className={"shadow-sm"}>Budget: <b>{movieDetails.budget}$</b> </p>
